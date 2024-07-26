@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>radio</title>
+</head>
+<body>
+  <form action = "/signup">
+    <fieldset>
+      <legend>좋아하는 아티스트를 골라</legend>
+      <ul>
+        <li>
+          <label for="metro">metro</label>
+          <input type = "checkbox" id = "metro" value="metro">
+        </li>
+        <li>
+          <label for="kanye">kanye</label>
+          <input type = "checkbox" id = "kanye" value="kanye">
+        </li>
+        <li>
+          <label for="xxx">xxx</label>
+          <input type = "checkbox" id = "xxx" value="xxx">
+        </li>
+        <li>
+          <label for="amine">amine</label>
+          <input type = "checkbox" id = "amine" value="amine">
+        </li>
+        <li>
+          <label for="drake">drake</label>
+          <input type = "checkbox" id = "drake" value="drake">
+        </li>
+      </ul>
+    </fieldset>
+    <fieldset>
+      <legend>배송방법</legend>
+      <ul>
+        <li>
+          <label for="free">무료</label>
+          <input type="radio" name = delivery id = "free" value = "free">
+        </li>
+        <li>
+          <label for="pay">유료</label>
+          <input type="radio" name = delivery id = "pay" value = "pay">
+        </li>
+      </ul>
+    </fieldset>
+    <fieldset>
+      <legend>자기소개서</legend>
+      <textarea name="" id="" cols="50" rows="5">저는 박현호입니다.</textarea>
+    </fieldset>
+    <fieldset>
+      <legend>사과구매하기</legend>
+      <ul>
+        <li>
+          <select name = "goods" id = "goods"> <!--multiple을 적을 경우 여러개도 선택 가능하다-->
+            <option value = "">얼른 골라</option>
+            <option value="apple_10kg">사과 10키로</option>
+            <option value="apple_20kg">사과 20키로</option>
+            <option value="apple_30kg">사과 30키로</option>
+            <option value="apple_40kg">사과 40키로</option>
+            <option value="apple_50kg">사과 50키로</option>
+          </select>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <label for = "icecream">맛을 선택하세요</label>
+          <input list = "flavors" id = "choice" name = "choice">
+          <datalist id = "flavors">
+            <option value = "Chocolate"></option>
+            <option value = "Coconut"></option>
+            <option value = "Mint"></option>
+            <option value = "Stravberry"></option>
+            <option value = "Vanilla"></option>
+          </datalist>
+        </li>
+      </ul>
+    </fieldset>
+    <button type = "submit">제출하기</button>
+    <button type = "reset">리셋하기</button>
+    <button type = "button" onclick="alert('오류입니다')">버튼</button>
+  </form>
+</body>
+</html>
