@@ -1,0 +1,9 @@
+/* 아무것도 없으면 태그 */
+h1 {
+  color: blue;
+}
+/* .이 붙으면 클래스 */
+.article {
+  border: 1px solid burlywood;
+  padding: 30px;
+}
