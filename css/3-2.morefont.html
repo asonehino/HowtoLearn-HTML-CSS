@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Font Style</title>
+  <style>
+    html {
+      font-size: 16px;
+    }
+    .content {
+      border: 1px solid red;
+    }
+    .text-center {
+      text-align: center;
+    }
+    .text-left {
+      text-align: left;
+    }
+    .text-right {
+      text-align: right;
+    }
+    .article { 
+      line-height: 2rem;
+      letter-spacing: 1px;
+      word-spacing: 20px;
+      text-indent: 80px;
+    }
+    .transform-case {
+      text-transform: uppercase;
+    }
+    .article>a {
+      text-decoration: overline;
+    }
+    .text-shadow {
+      text-shadow: 10px 10px 1px rgba(96, 92, 92, 0.298);
+    }
+    ul {
+      list-style: circle;
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <p class = "content text-left">박현호</p>
+    <p class = "content text-center">박현호</p>
+    <p class = "content text-right">박현호</p>
+  </section>
+  <section>
+    <p class = "article">
+      컴퓨터는 <span class = "transform-case">방대한 정보(too many information)</span>를 저장하고 <a href = "#">검색</a>하고 처리하며, 프로그래밍이 가능한 전자적 기계 장치 또는 자동으로 계산을 수행하고 다른 기계장치들을 제어하는 전자 기기다. 프로그램을 사용해 정보를 입 · 출력하고 계산(산술 또는 논리셈)을 자동으로 수행한다.
+    </p>
+  </section>
+  <section>
+    <h2 class = "text-shadow">박현호</h2>
+  </section>
+  <section>
+    <ul>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+    </ul>
+  </section>
+</body>
+</html>
