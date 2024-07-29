@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Box Model</title>
+  <style>
+    /* Content, Padding, Margin, Border*/
+    div.content {
+      background: rgb(182, 182, 182);
+      width: 200px;
+      height: 200px;
+      padding: 20px;
+      margin: 40px;
+      border: 10px solid green;
+    }
+    span{
+      border: 1px solid red;
+      width: 100px;
+      height: 100px;
+      display: inline-block;
+    }
+    div.padding {
+      border: 1px solid black;
+      /*padding-left: 20px;
+      padding-right: 20px;*/
+      padding: 30px 20px;
+    }
+    div.margin {
+      border: 1px solid red;
+      margin-left: 20px;
+    }
+    .shape {
+      border: 1px solid blue;
+      width: 100px;
+      height: 100px;
+      margin: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class = "content"></div>
+  <span>Hello CSS</span>
+  <div class = "padding">
+    갯벌의 사전적 의미는 '고조시에는 잠기고 저조시에는 드러나는 연안의 평탄한 지역' 을 말한다. 즉 갯벌이란 조류로 운반되어 온 미세한 흙들이 파도가 잔잔한 해안에 오랫동안 쌓여 생기는 평탄한 지형을 말하는 것이다.
+  </div>
+  <div class = "margin">
+    갯벌의 사전적 의미는 '고조시에는 잠기고 저조시에는 드러나는 연안의 평탄한 지역' 을 말한다. 즉 갯벌이란 조류로 운반되어 온 미세한 흙들이 파도가 잔잔한 해안에 오랫동안 쌓여 생기는 평탄한 지형을 말하는 것이다.
+  </div>
+  <!--마진 중첩-->
+  <div class="shape"></div>
+  <div class="shape"></div>
+</body>
+</html>
