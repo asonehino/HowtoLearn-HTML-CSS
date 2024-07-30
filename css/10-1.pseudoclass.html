@@ -59,7 +59,19 @@
       background-color: black;
       color: white;
       width: 250px;
-
+    }
+    .line::first-letter {
+      font-size: 40px;
+      color: burlywood;
+    }
+    .line::first-line {
+      background-color: yellow;
+      color: blue;
+      font-size: 20px;
+    }
+    div::selection {
+      background-color: red;
+      color: white;
     }
   </style>
 </head>
@@ -94,6 +106,12 @@
       <li>4content</li>
       <li>5content</li>
     </ul>
+  </fieldset>
+  <fieldset>
+    <legend>first-letter, first-line, section</legend>
+    <div class = "line">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate ad placeat hic inventore sapiente repudiandae perferendis distinctio incidunt impedit, accusamus nam assumenda voluptate velit voluptatum, quia sint. Pariatur, molestiae!
+    </div>
   </fieldset>
 </body>
 </html>
