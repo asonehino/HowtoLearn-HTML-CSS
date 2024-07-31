@@ -12,19 +12,21 @@
     }
     .flex-container {
       background-color: green;
-      width: 500px;
+      width: 100vw;
       height: 100vh;
       display: flex;
-      /*flex-direction: row;*/
-      /*flex-direction: column;*/
-      /*flex-wrap: nowrap;*/
-      flex-flow: row-reverse;
+      flex-flow: row wrap;
+      /* 수평 정렬
+      justify-content: space-between; */
+      /* 수직 정렬
+      align-content: space-; */
+      align-items: center;
     }
     .flex-item {
       background-color: purple;
       color: white;
-      width: 60px;
-      height: 60px;
+      width: 90px;
+      height: 90px;
       text-align: center;
       border: 1px solid white;
     }
@@ -37,6 +39,7 @@
     <div class="flex-item">3</div>
     <div class="flex-item">4</div>
     <div class="flex-item">5</div>
+    
     <div class="flex-item">6</div>
     <div class="flex-item">7</div>
     <div class="flex-item">8</div>
@@ -47,6 +50,7 @@
     <div class="flex-item">13</div>
     <div class="flex-item">14</div>
     <div class="flex-item">15</div>
+    
   </div>
 </body>
 </html>
